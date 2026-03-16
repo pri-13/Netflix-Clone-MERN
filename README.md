@@ -1,146 +1,166 @@
-# 🎬 Netflix Clone (MERN)
+# 🎬 Netflix Clone (MERN Stack)
 
-A full-stack **Netflix-inspired streaming platform** built using the MERN stack.
-The application replicates core Netflix functionality such as authentication, movie browsing, search, and trailer viewing while demonstrating full-stack architecture and API integration.
+![MERN](https://img.shields.io/badge/Stack-MERN-green)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-brightgreen)
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-green)
 
-This project was developed to practice **scalable full-stack application development**, API integration, and modern UI design using React.
+A **full-stack Netflix clone** built using the **MERN stack** that replicates core features of a modern streaming platform.
+Users can browse movies, search content, watch trailers, and maintain their viewing/search history.
+
+This project demonstrates how a scalable **full-stack JavaScript application** is structured using **React, Node.js, Express, and MongoDB**, while integrating a third-party movie database API.
 
 ---
 
-# 📖 Introduction
+# 📌 Introduction
 
-The **Netflix Clone MERN** project is a full-stack web application that simulates the user experience of a streaming platform. Users can authenticate, explore movies and TV shows, view trailers, and search content through a responsive interface.
+The Netflix Clone is designed to simulate the experience of a streaming platform interface.
+It focuses on building a **production-style architecture** that separates the frontend client and backend services.
 
-The backend provides secure authentication and data handling, while the frontend delivers a dynamic and interactive UI similar to modern streaming services.
+The application integrates movie data from **TMDB (The Movie Database)** API and provides a modern responsive UI similar to Netflix.
 
-This project demonstrates practical implementation of:
+This project is ideal for learning:
 
-* Full-stack MERN architecture
-* REST API communication
-* JWT authentication
-* Third-party API integration (movie data)
-* Responsive frontend design
+* Full-stack MERN development
+* REST API integration
+* Authentication with JWT
+* Backend service design
+* Frontend state management
+* Real-world project architecture
 
 ---
 
 # ✨ Features
 
-* 🔐 **User Authentication** (JWT-based login/signup)
-* 🎬 **Browse Movies & TV Shows**
-* 🔎 **Search Movies, Actors, and Shows**
-* 📺 **Watch Movie Trailers**
-* ⭐ **Similar Movie Recommendations**
-* 📜 **Search History Tracking**
-* 📱 **Responsive Netflix-style UI**
-* ⚡ **Dynamic Content Fetching from APIs**
+### 🔐 Authentication
+
+* User signup and login
+* Secure authentication using **JWT**
+* Protected routes
+
+### 🎥 Content Browsing
+
+* Browse trending movies
+* Browse TV shows
+* Fetch similar movies and recommendations
+
+### 🔎 Search
+
+* Search movies, TV shows, and actors
+* Store user search history
+
+### ▶️ Trailer Playback
+
+* Watch movie trailers directly in the UI
+
+### 📱 Responsive UI
+
+* Netflix-inspired layout
+* Mobile-friendly design
+
+### 🌐 API Integration
+
+* Real movie data fetched from **TMDB API**
 
 ---
 
 # 🛠 Tech Stack
 
-### Frontend
-
-* React.js
-* JavaScript (ES6+)
-* Tailwind CSS / CSS
-* Axios
-
-### Backend
-
-* Node.js
-* Express.js
-* JWT Authentication
-
-### Database
-
-* MongoDB
-* Mongoose
-
-### APIs & Tools
-
-* Movie Database API (TMDB)
-* Git & GitHub
-* Node Package Manager (npm)
-
-The MERN stack enables seamless full-stack development using JavaScript across both client and server layers. ([GitHub][1])
+| Layer          | Technology     |
+| -------------- | -------------- |
+| Frontend       | React.js       |
+| Backend        | Node.js        |
+| Framework      | Express.js     |
+| Database       | MongoDB        |
+| Authentication | JWT            |
+| API            | TMDB Movie API |
 
 ---
 
-# 📦 Requirements
+# 📂 Project Structure
 
-Make sure the following tools are installed before running the project:
-
-* Node.js (v18 or higher recommended)
-* npm or yarn
-* MongoDB (local instance or MongoDB Atlas)
-* Git
-* TMDB API Key
+```
+Netflix-Clone-MERN
+│
+├── backend
+│   ├── controllers
+│   ├── routes
+│   ├── models
+│   ├── middleware
+│   └── server.js
+│
+├── frontend
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── hooks
+│   │   └── utils
+│
+├── .env
+├── package.json
+└── README.md
+```
 
 ---
 
-# ⚙️ Installation
+# ⚙️ Requirements
 
-Clone the repository:
+Make sure the following are installed before running the project:
 
-```bash
+* **Node.js**
+* **npm** or **yarn**
+* **MongoDB** (Local or MongoDB Atlas)
+* **TMDB API Key**
+
+Create a `.env` file in the root directory:
+
+```
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+NODE_ENV=development
+JWT_SECRET=your_jwt_secret
+TMDB_API_KEY=your_tmdb_api_key
+```
+
+---
+
+# 📦 Installation
+
+Clone the repository
+
+```
 git clone https://github.com/pri-13/Netflix-Clone-MERN.git
+```
+
+Move into the project folder
+
+```
 cd Netflix-Clone-MERN
 ```
 
-Install dependencies:
+Install dependencies
 
-```bash
-npm install
 ```
-
-Install backend dependencies:
-
-```bash
-cd backend
 npm install
-```
-
-Install frontend dependencies:
-
-```bash
-cd ../frontend
-npm install
-```
-
----
-
-# 🔑 Environment Variables
-
-Create a `.env` file in the root or backend directory:
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-TMDB_API_KEY=your_tmdb_api_key
-NODE_ENV=development
 ```
 
 ---
 
 # ▶️ Usage
 
-Run the application locally.
+Build the project
 
-### Development mode
-
-```bash
-npm run dev
+```
+npm run build
 ```
 
-### Production build
+Start the server
 
-```bash
-npm run build
+```
 npm run start
 ```
 
-Open in browser:
+Open the application in your browser
 
 ```
 http://localhost:5000
@@ -148,104 +168,71 @@ http://localhost:5000
 
 ---
 
-# 🏗 Architecture Review
-
-Below is the high-level architecture of the application.
-
-```mermaid
-flowchart LR
-
-User[User Browser]
-
-subgraph Frontend
-React[React Application]
-UI[UI Components]
-State[State Management]
-end
-
-subgraph Backend
-API[Express REST API]
-Auth[JWT Authentication]
-Controllers[Controllers]
-end
-
-subgraph Database
-DB[(MongoDB)]
-end
-
-subgraph External
-TMDB[TMDB Movie API]
-end
-
-User --> React
-React --> UI
-React --> State
-
-React -->|HTTP Requests| API
-API --> Auth
-API --> Controllers
-Controllers --> DB
-
-API -->|Fetch Movies| TMDB
-```
-
-### Architecture Overview
+# Architecture Review
 
 **Frontend (React)**
 
-* Handles UI rendering and user interactions
+* Handles UI rendering
 * Sends API requests to backend
+* Manages user state and routing
 
 **Backend (Node + Express)**
 
+* Provides REST API endpoints
 * Handles authentication
-* Processes business logic
-* Communicates with database
+* Communicates with TMDB API
 
 **Database (MongoDB)**
 
-* Stores user data, search history, and preferences
+* Stores users
+* Stores search history
+* Manages persistent data
 
 **External API**
 
-* Fetches movie metadata and trailers.
+* TMDB API provides movie metadata, posters, and trailers
 
 ---
 
 # 📸 Screenshots
 
-Add screenshots of your application UI.
+![Homepage](screenshots/home.png)
 
-Example:
+![Loginpage](screenshots/login.png)
+
+![Mainpage](screenshots/main.png)
+
+You can then display them like this:
 
 ```
-/screenshots
-  home.png
-  login.png
-  movie-page.png
-```
-
-Example Markdown:
-
-```markdown
-## Home Page
-![Home Page](screenshots/home.png)
-
-## Login Page
-![Login](screenshots/login.png)
-
-## Movie Details
-![Movie](screenshots/movie-page.png)
+![Homepage](screenshots/homepage.png)
 ```
 
 ---
 
 # 🚀 Future Improvements
 
-* Watchlist / Favorites feature
-* Video streaming integration
+* Watchlist feature
+* User profiles
 * Recommendation engine
-* Role-based admin dashboard
-* Deployment with Docker and CI/CD
+* Video streaming integration
+* Docker deployment
+* CI/CD pipeline
 
 ---
+
+## How to Run
+
+1. **Fork the Repository**
+2. **Front-end Setup:**
+   - Navigate to `netflix-ui` directory
+   - Run `npm install` to install dependencies
+   - Run `npm start` to launch the front-end
+
+3. **Back-end Setup:**
+   - Navigate to `backend` directory
+   - Run `npm install` to install dependencies
+   - Run `node index.js` to start the back-end server
+
+If you found this project useful, feel free to ⭐ the repository.
+Feel free to contribute to the project and make it even better!
