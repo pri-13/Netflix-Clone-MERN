@@ -4,7 +4,6 @@
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-brightgreen)
 ![React](https://img.shields.io/badge/Frontend-React-blue)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-green)
-![License](https://img.shields.io/badge/License-Educational-lightgrey)
 
 A **full-stack Netflix clone** built using the **MERN stack** that replicates core features of a modern streaming platform.
 Users can browse movies, search content, watch trailers, and maintain their viewing/search history.
