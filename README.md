@@ -222,19 +222,6 @@ You can then display them like this:
 
 ---
 
-# 📄 License
-
-This project is created for **learning and portfolio purposes**.
-
----
-
-# 👨‍💻 Author
-
-**Priyanshu**
-
-If you found this project useful, feel free to ⭐ the repository.
-
-
 ## How to Run
 
 1. **Fork the Repository**
@@ -248,6 +235,5 @@ If you found this project useful, feel free to ⭐ the repository.
    - Run `npm install` to install dependencies
    - Run `node index.js` to start the back-end server
 
-## Contributors
-
+If you found this project useful, feel free to ⭐ the repository.
 Feel free to contribute to the project and make it even better!
