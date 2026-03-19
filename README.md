@@ -195,6 +195,7 @@ http://localhost:5000
 ---
 
 # 📸 Screenshots
+Home Page
 
 ![Homepage](screenshots/home.png)
 
@@ -218,8 +219,6 @@ You can then display them like this:
 * Video streaming integration
 * Docker deployment
 * CI/CD pipeline
-
----
 
 ## How to Run
 
