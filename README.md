@@ -199,7 +199,11 @@ Home Page
 
 ![Homepage](screenshots/home.png)
 
+Login Page
+
 ![Loginpage](screenshots/login.png)
+
+Main Page
 
 ![Mainpage](screenshots/main.png)
 
