@@ -5,13 +5,6 @@
 ![React](https://img.shields.io/badge/Frontend-React-blue)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-green)
 
-A **full-stack Netflix clone** built using the **MERN stack** that replicates core features of a modern streaming platform.
-Users can browse movies, search content, watch trailers, and maintain their viewing/search history.
-
-This project demonstrates how a scalable **full-stack JavaScript application** is structured using **React, Node.js, Express, and MongoDB**, while integrating a third-party movie database API.
-
----
-
 # 📌 Introduction
 
 The Netflix Clone is designed to simulate the experience of a streaming platform interface.
