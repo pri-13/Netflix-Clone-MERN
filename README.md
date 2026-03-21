@@ -1,11 +1,11 @@
-# 🎬 Netflix Clone (MERN Stack)
+# Netflix Clone (MERN Stack)
 
 ![MERN](https://img.shields.io/badge/Stack-MERN-green)
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-brightgreen)
 ![React](https://img.shields.io/badge/Frontend-React-blue)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-green)
 
-# 📌 Introduction
+# Introduction
 
 The Netflix Clone is designed to simulate the experience of a streaming platform interface.
 It focuses on building a **production-style architecture** that separates the frontend client and backend services.
@@ -23,41 +23,41 @@ This project is ideal for learning:
 
 ---
 
-# ✨ Features
+# Features
 
-### 🔐 Authentication
+### Authentication
 
 * User signup and login
 * Secure authentication using **JWT**
 * Protected routes
 
-### 🎥 Content Browsing
+### Content Browsing
 
 * Browse trending movies
 * Browse TV shows
 * Fetch similar movies and recommendations
 
-### 🔎 Search
+### Search
 
 * Search movies, TV shows, and actors
 * Store user search history
 
-### ▶️ Trailer Playback
+### Trailer Playback
 
 * Watch movie trailers directly in the UI
 
-### 📱 Responsive UI
+### Responsive UI
 
 * Netflix-inspired layout
 * Mobile-friendly design
 
-### 🌐 API Integration
+### API Integration
 
 * Real movie data fetched from **TMDB API**
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 | Layer          | Technology     |
 | -------------- | -------------- |
