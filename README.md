@@ -70,33 +70,7 @@ This project is ideal for learning:
 
 ---
 
-# 📂 Project Structure
-
-```
-Netflix-Clone-MERN
-│
-├── backend
-│   ├── controllers
-│   ├── routes
-│   ├── models
-│   ├── middleware
-│   └── server.js
-│
-├── frontend
-│   ├── src
-│   │   ├── components
-│   │   ├── pages
-│   │   ├── hooks
-│   │   └── utils
-│
-├── .env
-├── package.json
-└── README.md
-```
-
----
-
-# ⚙️ Requirements
+# Requirements
 
 Make sure the following are installed before running the project:
 
@@ -117,7 +91,7 @@ TMDB_API_KEY=your_tmdb_api_key
 
 ---
 
-# 📦 Installation
+# Installation
 
 Clone the repository
 
