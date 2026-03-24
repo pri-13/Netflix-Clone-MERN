@@ -113,7 +113,7 @@ npm install
 
 ---
 
-# ▶️ Usage
+# Usage
 
 Build the project
 
