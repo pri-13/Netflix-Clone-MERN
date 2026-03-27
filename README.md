@@ -174,6 +174,10 @@ Main Page
 
 ![Mainpage](screenshots/main.png)
 
+![Signuppage](screenshots/signup.png)
+
+![Teampage](screenshots/team.png)
+
 You can then display them like this:
 
 ```
