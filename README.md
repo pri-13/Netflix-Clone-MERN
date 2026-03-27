@@ -161,7 +161,7 @@ http://localhost:5000
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 Home Page
 
 ![Homepage](screenshots/home.png)
