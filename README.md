@@ -186,7 +186,7 @@ You can then display them like this:
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 * Watchlist feature
 * User profiles
