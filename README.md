@@ -174,6 +174,8 @@ Main Page
 
 ![Mainpage](screenshots/main.png)
 
+Sign Up Page
+
 ![Signuppage](screenshots/signup.png)
 
 ![Teampage](screenshots/team.png)
