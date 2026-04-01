@@ -178,6 +178,8 @@ Sign Up Page
 
 ![Signuppage](screenshots/signup.png)
 
+Team Page
+
 ![Teampage](screenshots/team.png)
 
 You can then display them like this:
