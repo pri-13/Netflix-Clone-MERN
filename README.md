@@ -182,12 +182,6 @@ Team Page
 
 ![Teampage](screenshots/team.png)
 
-You can then display them like this:
-
-```
-![Homepage](screenshots/homepage.png)
-```
-
 ---
 
 # Future Improvements
