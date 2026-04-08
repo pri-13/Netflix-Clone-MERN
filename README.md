@@ -1,4 +1,4 @@
-# Netflix Clone (MERN Stack)
+# Netflix Clone MERN Stack
 
 ![MERN](https://img.shields.io/badge/Stack-MERN-green)
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-brightgreen)
