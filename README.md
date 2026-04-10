@@ -163,6 +163,7 @@ http://localhost:5000
 
 # Screenshots
 Home Page
+
 ![Homepage](screenshots/home.png)
 
 Login Page
