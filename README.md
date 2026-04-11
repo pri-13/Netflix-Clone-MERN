@@ -192,18 +192,6 @@ Team Page
 * Video streaming integration
 * Docker deployment
 * CI/CD pipeline
-
-## How to Run
-
-1. **Fork the Repository**
-2. **Front-end Setup:**
-   - Navigate to `netflix-ui` directory
-   - Run `npm install` to install dependencies
-   - Run `npm start` to launch the front-end
-
-3. **Back-end Setup:**
-   - Navigate to `backend` directory
-   - Run `npm install` to install dependencies
    - Run `node index.js` to start the back-end server
 
 If you found this project useful, feel free to ⭐ the repository.
