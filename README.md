@@ -91,6 +91,20 @@ TMDB_API_KEY=your_tmdb_api_key
 
 ---
 
+## How to Run
+
+1. **Fork the Repository**
+2. **Front-end Setup:**
+   - Navigate to `netflix-ui` directory
+   - Run `npm install` to install dependencies
+   - Run `npm start` to launch the front-end
+
+3. **Back-end Setup:**
+   - Navigate to `backend` directory
+   - Run `npm install` to install dependencies
+
+---
+
 # Installation
 
 Clone the repository
