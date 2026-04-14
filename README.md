@@ -91,7 +91,7 @@ TMDB_API_KEY=your_tmdb_api_key
 
 ---
 
-## How to Run
+# How to Run
 
 1. **Fork the Repository**
 2. **Front-end Setup:**
