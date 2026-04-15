@@ -151,27 +151,41 @@ http://localhost:5000
 
 # Architecture Review
 
-**Frontend (React)**
+flowchart LR
 
-* Handles UI rendering
-* Sends API requests to backend
-* Manages user state and routing
+User[User Browser]
 
-**Backend (Node + Express)**
+subgraph Frontend
+UI[React UI Components]
+State[State Management]
+Routing[Client Routing]
+end
 
-* Provides REST API endpoints
-* Handles authentication
-* Communicates with TMDB API
+subgraph Backend
+API[Express REST API]
+Auth[JWT Authentication]
+Logic[Business Logic]
+end
 
-**Database (MongoDB)**
+subgraph Database
+DB[(MongoDB)]
+end
 
-* Stores users
-* Stores search history
-* Manages persistent data
+subgraph External
+TMDB[TMDB API]
+end
 
-**External API**
+User --> UI
+UI --> State
+UI --> Routing
 
-* TMDB API provides movie metadata, posters, and trailers
+UI -->|HTTP Requests| API
+
+API --> Auth
+API --> Logic
+Logic --> DB
+
+API -->|Fetch Content| TMDB
 
 ---
 
