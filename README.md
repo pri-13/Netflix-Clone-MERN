@@ -151,8 +151,6 @@ http://localhost:5000
 
 # Architecture Review
 
-# Architecture Review
-
 ```mermaid
 flowchart LR
 
