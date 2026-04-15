@@ -206,7 +206,6 @@ Team Page
 * Video streaming integration
 * Docker deployment
 * CI/CD pipeline
-   - Run `node index.js` to start the back-end server
 
 If you found this project useful, feel free to ⭐ the repository.
 Feel free to contribute to the project and make it even better!
