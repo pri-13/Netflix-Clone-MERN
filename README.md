@@ -105,28 +105,6 @@ TMDB_API_KEY=your_tmdb_api_key
 
 ---
 
-# Installation
-
-Clone the repository
-
-```
-git clone https://github.com/pri-13/Netflix-Clone-MERN.git
-```
-
-Move into the project folder
-
-```
-cd Netflix-Clone-MERN
-```
-
-Install dependencies
-
-```
-npm install
-```
-
----
-
 # Usage
 
 Build the project
